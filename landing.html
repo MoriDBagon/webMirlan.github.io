@@ -3,31 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Awesome Landing Page</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>TechHub - Your Source for Cutting-Edge Tech</title>
+    <link rel="stylesheet" href="Css/style.css">
 </head>
 <body>
+    <div class="top-header">
+        <div class="top-nav">
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+
     <header>
-        <h1>Welcome to Our Awesome Website</h1>
-        <p>Discover amazing content and more!</p>
+        <div class="logo">
+            <h1>TechHub</h1>
+            <p>Your Source for Cutting-Edge Tech</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
-    
-    <section>
+
+
+    <section id="about" class="about">
         <h2>About Us</h2>
-        <p>We are dedicated to providing you with the best experience on the web.</p>
+        <p>Discover the latest in technology and innovation.</p>
     </section>
 
-    <section>
-        <h2>Sign Up Now</h2>
+    <section id="products" class="products">
+        <h2>Featured Products</h2>
+        <div class="product">
+            <img src="Images/product1.jpg" alt="Product 1">
+            <h3>Product Name 1</h3>
+            <p>Description of Product 1.</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="product">
+            <img src="Images/product2.jpg" alt="Product 2">
+            <h3>Product Name 2</h3>
+            <p>Description of Product 2.</p>
+            <button>Buy Now</button>
+        </div>
+        <!-- Add more products as needed -->
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
         <form>
             <input type="text" placeholder="Your Name" required>
             <input type="email" placeholder="Your Email" required>
-            <button type="submit">Sign Up</button>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
         </form>
     </section>
 
     <footer>
-        <p>&copy; 2023 Awesome Company. All rights reserved.</p>
+        <div class="footer-logo">
+            <h1>TechHub</h1>
+        </div>
+        <div class="footer-info">
+            <p>Email: info@techhub.com</p>
+            <p>Phone: 555-555-5555</p>
+        </div>
+        <p>&copy; 2023 TechHub. All rights reserved.</p>
     </footer>
 </body>
 </html>
